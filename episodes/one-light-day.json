@@ -1,0 +1,64 @@
+{
+  "title": "One Light-Day",
+  "host": {
+    "voice": "en-US-AndrewMultilingualNeural",
+    "rate": "+0%",
+    "pitch": "-2Hz"
+  },
+  "say": {
+    "2026": "twenty twenty-six",
+    "RTG": "R T G",
+    "RTGs": "R T Gs",
+    "JPL": "J P L",
+    "DSN": "Deep Space Network",
+    "V1": "Voyager One"
+  },
+  "paragraphs": [
+    {
+      "text": "On the eighteenth of November, 2026, at just after two in the morning Pacific time, a spacecraft the size of a small car will be sixteen point zero nine four billion miles away from Earth. Twenty five point nine billion kilometres. And nothing at all will happen. No camera will fire. No sensor will notice. There is no marker out there to cross, no line in space, no border post. But on that day Voyager 1 becomes the first human-made object to be one light-day from home. Not one day of travel. One day of light. And that number is worth understanding, because it is the cleanest measure we have of how far a machine built in the nineteen seventies has actually got."
+    },
+    {
+      "text": "Here is the scale of it. Light covers about eighteen million kilometres every minute. Voyager 1 is doing thirty eight thousand miles per hour, roughly sixty one thousand kilometres per hour, which is fast enough to cross the Atlantic in a few minutes, and it has been doing that, almost without pause, for forty nine years. Light crosses in a single day what the spacecraft needed nearly half a century to cover. Put the two facts next to each other and the solar system stops feeling like a place with a fence around it and starts feeling like a very large amount of nothing.",
+      "beat": true
+    },
+    {
+      "text": "That distance has a practical consequence that shapes everything about how the mission is run. Radio waves travel at the speed of light, so a command sent from Earth takes twenty four hours to arrive, and the answer takes twenty four hours to come back. Two days, round trip. Suzanne Dodd, the project manager at the Jet Propulsion Laboratory, put it about as plainly as it can be put. If you want to say hello to Voyager, you send your message and then you go home and you wait two days before you finally get a response. Which means nobody is flying this spacecraft with a joystick. Every command is planned, simulated, and committed in advance, and then you wait, and then you find out whether the thing you did two days ago worked."
+    },
+    {
+      "text": "Now the part that will eventually kill it, and it is not distance, and it is not the cold. It is the fuel. Both Voyagers run on radioisotope thermoelectric generators: lumps of plutonium dioxide whose decay heat is turned directly into electricity by thermocouples. No moving parts, no combustion, nothing to refill. The catch is that the plutonium is finite, and the output falls by about four watts every year. Four watts does not sound like much. Compounded over forty nine years, in a spacecraft that was built with almost no margin, it is the entire story of the last decade of the mission."
+    },
+    {
+      "text": "So the Voyager team has spent years doing the least glamorous engineering in spaceflight, which is deciding what to stop doing. The probes launched with ten science instruments each, several of them aimed at Jupiter, Saturn, Uranus and Neptune. Those were switched off once the flybys were done. The instruments kept alive were the fields and particles set, the ones that can still say something about the medium the spacecraft is moving through. On Voyager 1, the plasma science instrument went dark back in two thousand and seven after its performance degraded. The cosmic ray subsystem was switched off on the twenty fifth of February 2025. The low energy charged particle instrument followed on the seventeenth of April 2026. Voyager 2 lost its plasma science instrument in September 2024 and its low energy charged particles in March 2025. That leaves two instruments running on Voyager 1, the magnetometer and the plasma wave subsystem, and three on Voyager 2."
+    },
+    {
+      "text": "Voyager 2 is the quieter half of the story, and it deserves a moment, because the twins are no longer travelling together. Voyager 2 is over thirteen billion miles out, roughly twenty one billion kilometres, which puts its one way light time at about nineteen and a half hours rather than twenty four. So the gap between the two spacecraft, measured in the only unit that really matters out there, is about four and a half hours of light. Voyager 2 is also the slower of the two, escaping at roughly three point one astronomical units per year against Voyager 1's three and a half, and it left the heliosphere later, in 2018, exiting to the south toward Sagittarius and Pavo. Same design, same launch year, two different doors out of the solar system, and two different sets of measurements of what is on the other side."
+    },
+    {
+      "text": "And then there is the piece of work the team nicknamed the Big Bang, which is the most interesting thing to happen to either spacecraft in years. In September 2026, engineers turned off three devices on Voyager 1 and substituted three lower power replacements. The reason it was remarkable is that it had to happen all at once. Those devices are heaters, and heaters keep the spacecraft warm enough to keep working out there. Swap one at a time and you change how heat is distributed, and you risk something freezing that you cannot thaw. So all three had to be swapped in a single coordinated operation, forty nine years after launch, on a computer with sixty nine kilobytes of memory in total, less than a single photo on a modern phone. The same procedure was done on Voyager 2 about six weeks earlier. The payoff is concrete: without the Big Bang, the team would have had to shut down another Voyager 1 instrument as early as the summer of 2027.",
+      "beat": true
+    },
+    {
+      "text": "Which brings us to October, and the reminder that all of this is being done on borrowed time. On the eighteenth and nineteenth of October 2026, the Deep Space Network could not find Voyager 1. Two scheduled communications attempts, twenty four hours apart, no signal. Then on the twentieth, it came back on its own, before the team had even sent troubleshooting commands. What the engineers have pieced together is that one group of thrusters went offline and its backups came on, an automatic fault protection response, the spacecraft deciding something was wrong and putting itself into a stable configuration. Kareem Badaruddin, the mission manager, said it was the first time they had seen the spacecraft do something like this, and that at this point in the mission they have to expect the unexpected. Forty eight hours of silence from sixteen billion miles away is not a glitch. It is a preview."
+    },
+    {
+      "text": "The reason anyone tolerates this is that there is nothing else out there. Voyager 1 crossed the heliopause, the boundary where the Sun's wind stops pushing against the interstellar medium, in August 2012. Voyager 2 followed in 2018. They are the only two spacecraft that have ever operated outside the heliosphere, and there is nothing else like them in the pipeline. Every measurement of the plasma, the magnetic field, and the cosmic rays in that region comes from these two machines. When they stop, the direct sampling stops, probably for a generation. That is the actual asset being managed here, not the hardware."
+    },
+    {
+      "text": "It is worth saying what is already lost, because it sets the tone for the rest. The cameras were turned off in 1990, right after Voyager 1 took the family portrait, that mosaic with the pale blue dot in it. The software that ran the cameras was removed from the spacecraft. The ground computers that understood that software no longer exist. The instruments have been sitting in deep cold for decades. So there will be no photograph of the one light-day milestone, and honestly, there is nothing to photograph. The spacecraft does not cross anything. It just keeps going, and the number on the ground gets bigger.",
+      "beat": true
+    },
+    {
+      "text": "One more piece of perspective before the numbers get bleak. A light-day sounds like the edge of everything, and it is nowhere close. The Sun's gravitational influence is thought to reach as far as about two light years, and the Oort cloud, the vast reservoir of comets that marks the outer solar system, may extend to fifty thousand astronomical units. One astronomical unit is the Earth-Sun distance, about ninety three million miles. So after forty nine years and sixteen billion miles, Voyager 1 has crossed the heliosphere, entered interstellar space, and is still, gravitationally speaking, inside the solar system. It has left the neighbourhood without leaving the county.",
+      "beat": true
+    },
+    {
+      "text": "How long can this continue? Power, not distance, sets the clock. NASA's own planning has the two probes returning engineering data until roughly 2036, depending on what is still alive to transmit, and enough electricity for at least one science instrument into the nineteen thirties, which is the payoff from all those shutdowns. After that the spacecraft keep flying, silent, and the timeline gets genuinely strange. Voyager 1 is heading out of the ecliptic toward the constellation Ophiuchus. In the year forty thousand two hundred and seventy two, it will pass within about one point seven light years of a star in Ursa Minor with the catalogue name AC plus seventy nine thirty eight eighty eight. Voyager 2 will drift near a star called Ross two hundred and forty eight, in Andromeda, on a similar schedule."
+    },
+    {
+      "text": "Both carry a golden record, and on its cover there is a small patch of uranium two hundred and thirty eight, electroplated, included as a clock. Half of it decays in four point five one billion years, so anyone who finds the thing can measure the ratio of uranium to its decay products and work out when it was launched. It is a message in a bottle with a manufacturing date stamped into the glass, addressed to nobody in particular, with a delivery window measured in geological time."
+    },
+    {
+      "text": "So on the eighteenth of November, when the number ticks past one light-day, nothing will change aboard Voyager 1. The plutonium will keep decaying. The magnetometer will keep sampling a magnetic field that is barely there. The team will keep watching a signal that left the spacecraft a full day earlier, describing a moment that is already twenty four hours in the past. Which is, if you think about it, the whole mission in one sentence: we are always hearing from it a day late, and it is always a little further than the last time we looked. If you want to say hello, send your message. Then go home and wait two days."
+    }
+  ]
+}

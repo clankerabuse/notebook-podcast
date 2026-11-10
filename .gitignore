@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.render-*/
+notes/
+
+# Episodes stay local; only the reference sample is tracked.
+episodes/*
+!episodes/one-light-day.json
+!episodes/one-light-day.mp3
