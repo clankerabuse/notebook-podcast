@@ -17,6 +17,39 @@ harder thing to make sound good and it is not the point of this repo.
    1,650 words ≈ 10 minutes, 2,400 ≈ 15 minutes at the measured 163 wpm.
 3. **Render** — `python render.py episodes/<slug>.json episodes/<slug>.mp3`
    ~2 minutes of wall clock for a 10-minute episode, 96 kbps mono, ~0.75 MB/min.
+4. **Publish** (optional) — `python station.py build` turns the folder into an
+   RSS feed, `python station.py serve` puts it on the tailnet. See below.
+
+## Feed
+
+`render.py` leaves an mp3 in `episodes/`; `station.py` makes that folder
+subscribable, so an episode can be heard on a walk instead of only at the desk
+it was rendered on.
+
+```bash
+python station.py build              # episodes/*.json + *.mp3 -> feed.xml
+python station.py serve              # http://<tailnet-addr>:8765/feed.xml
+```
+
+`build` takes the title from the script, measures the duration with ffprobe,
+takes the byte length from the file, and dates the item from the mp3's mtime.
+Show notes come from `notes/<slug>.md`: the URLs under its `# Sources` heading
+(or, failing that, the URLs in its opening lines). With no notes file the
+description is the script's first sentence.
+
+Enclosure URLs must be absolute, so `build` prefixes them with this machine's
+tailnet address and `serve` binds there by default — `--base-url` and `--host`
+override both when the feed has to live somewhere else. The guid is the slug,
+not the URL, so a changing address does not make clients re-download the
+archive.
+
+One prerequisite needs root: the host firewall drops by default, so allow the
+port on the tailnet interface only, not the LAN —
+`sudo ufw allow in on tailscale0 to any port 8765 proto tcp`.
+
+A missing or unprobeable mp3 is skipped with a warning and a non-zero exit
+rather than shipped as a broken item. `feed.xml` is generated and gitignored.
+Tests: `python3 -m unittest discover -s tests`.
 
 ## Solo script format (default)
 
