@@ -3,6 +3,9 @@ __pycache__/
 .render-*/
 notes/
 
+# Generated feed, rebuilt by station.py from the episodes on hand.
+feed.xml
+
 # Episodes stay local; only the reference sample is tracked.
 episodes/*
 !episodes/one-light-day.json
